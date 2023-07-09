@@ -19,6 +19,7 @@ font-size: 45px;
 font-style: normal;
 font-weight: 800;
 line-height: normal;
+margin-left: 150px;
 }
 
 .text-primary {
@@ -55,16 +56,84 @@ padding: 15px 35px;
 /*header related styles*/
 .header{
 background-color: #FFF8F3;
+background-image: url('../images/header_bg.png');
+background-repeat: no-repeat;
+background-position: bottom right;
 }
 
 .banner{
-    padding: 30px 30px 30px 150px; 
+    padding: 30px  30px 0px 150px ; 
     display: flex;
-    justify-content:space-around;
+    justify-content:space-between;
     align-items: center;
 }
 
 .banner .profile-img{
     width: 500px;
    
+}
+.baner-greeting{
+    color: #474747;
+font-size: 45px;
+font-weight: 600;
+margin-bottom: 0;
+
+}
+
+.banner-title{
+
+    color: #181818;
+
+font-size: 85px;
+
+font-weight: 700px;
+line-height: normal;
+margin-top: 5px;
+margin-bottom: 20px;
+}
+
+.banner-p{
+
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+.baner-content{
+    max-width: 500px;
+}
+/*main section styles */
+
+
+
+/* About Section*/
+
+.about{
+    padding: 36px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+    margin: 130px 230px;
+}
+
+.section-title{
+    color: #181818;
+text-align: center;
+font-size: 35px;
+font-weight: 700;
+
+}
+
+.section-description {
+    color: #757575;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+
+display: flex;
+
+flex-direction: column;
+flex-shrink: 0;
+
+
 }
